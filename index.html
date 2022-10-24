@@ -7,59 +7,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Alfa+Slab+One&family=Arizonia&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Alfa+Slab+One&family=Arizonia&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <title>Titanic</title>
 
 </head>
 
 <body>
-  <header class="container container-content">
-    <div class="row header-row">
-      <div class="logo_header col-3"></div>
-      <ul class="nav_header col-8 nav justify-content-center px-0 d-flex align-items-center">
+  <header class="container-fluid header-bg-bl">
+    <div class="row header-row container-content">
+      <div class="logo_header col-3 px-0"></div>
+      <ul class="nav_header  col-8 nav justify-content-center px-0 d-flex align-items-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Find a cruise</a>
+          <a class="nav-link text-uppercase" aria-current="page" href="#">Find a cruise</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Deals</a>
+          <a class="nav-link text-uppercase" href="#">Deals</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Ships</a>
+          <a class="nav-link text-uppercase" href="#">Ships</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link ">Destinations</a>
+          <a class="nav-link text-uppercase">Destinations</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link ">Manage my cruise</a>
+          <a class="nav-link text-uppercase">Manage my cruise</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link ">Destinations</a>
-        </li>
+
       </ul>
-      <div class="search_header col-1 d-flex align-items-center">
-        <p>SIGN&nbsp;IN</p>
-        <svg>
-          <use href=""></use>
-        </svg>
+      <div class="search_header col-1 d-flex justify-content-end align-items-center">
+        <a class="nav-link">SIGN IN</a>
       </div>
     </div>
-    <div class="row title_header ">
-      <div class=" col-3 px-0">
-        We Stand With Ukraine!
+    <div class=" header-bg-or">
+      <div class="row title_header container-content">
+        <div class=" col-3 px-0 ">
+          We Stand With Ukraine!
+        </div>
+        <div class="col-6"></div>
+        <div class="contact_header col-3 text-end px-0">UNITED STATES 818 555 55 55</div>
       </div>
-      <div class="col-6"></div>
-      <div class="contact_header col-3 text-end px-0">UNITED STATES 818 555 55 55</div>
     </div>
   </header>
   <main>
     <section class="hero container-fluid d-flex align-items-center justify-content-end p-5">
-        <div class="row">
-          <div class="col">
-            <p class="fs-1">luxury transatlantic journey</p>
-          </div>
+      <div class="row container-content">
+        <div class="col-6"></div>
+        <div class="col-6">
+          <p class="fs-1">Luxury transatlantic journey</p>
           <div class="text col">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut luctus dolor, in pretium
             nunc. Sed eleifend justo eu
@@ -67,10 +65,11 @@
           </div>
           <button type="button" class="btn btn-danger">BOOK NOW</button>
         </div>
-      </section>
+
+    </section>
 
     <section class="search container mt-5 pt-3">
-      <div class="row">
+      <div class="row  ps-1">
         <div class="col-3">
           <p class="search_text_items">DEPARTING FROM</p>
           <p class="search_text">Choose Departure Port</p>
@@ -88,12 +87,17 @@
         </div>
       </div>
     </section>
-    <h2>POPULAR CRUISES</h2>
-    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
-    <section class="popular container">
+    <section class="popular overflow-hidden container ">
       <div class="row">
+        <div class="col me-1">
+          <h2 class="popular-text-item mt-4 mb-0">POPULAR CRUISES</h2>
+          <h4 class="popular-text mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
 
-        <div class="card col-3" style="width: 18rem;">
+        </div>
+      </div>
+      <div class="row gy-5">
+
+        <div class="card col-3 border-0" style="width: 18rem;">
           <img src="img/popular1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">5 Days Italian Cruise</h5>

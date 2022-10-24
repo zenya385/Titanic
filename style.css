@@ -5,53 +5,58 @@
     padding-right: 125px;
     width: 100%;
 }
+
 body {
     padding: 0;
     margin: 0;
 }
-.nav_header li a{
+
+.nav_header li a {
     text-decoration: none;
     color: white;
     padding: 7px 16px;
 }
+
 .border {
     background-color: rgba(128, 128, 128, 0.39);
     border: 1px solid red;
     height: 80px;
 }
-header{
+
+header {
     font-family: 'Alata';
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
 }
-.header-row{
-    background-color: #131249;
+
+.header-row {
     height: 80px;
 }
-.logo_header{
-    background-image: url(./img/logo\ 1.png);
-    background-repeat: no-repeat;
-    background-position: center;
+
+.header-row ul {
+    margin-left: -45px;
+    margin-right: 20px;
 }
 
-.title_header {
+.header-bg-bl {
+    background-color: #131249;
+}
+
+.header-bg-or {
     background-color: #C84500;
 }
 
-.search {
-    height: 100px;
+.logo_header {
+    background-image: url(./img/logo\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 0;
 }
 
-.popular {
-    height: 500px;
-}
+.title_header {}
 
-.group {
-    height: 600px;
-}
-
+/* ============================== HERO ========================= */
 .hero {
     height: 880px;
     background-image: url(img/BG.jpg);
@@ -66,12 +71,13 @@ header{
     color: #131249;
 }
 
+/* ============================== SEARCH ========================= */
 .search {
     background: #FFFFFF;
     box-shadow: 0px 4px 19px 1px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    height: 100px;
 }
-
 
 .search_text_items {
     font-family: 'Alata';
@@ -91,4 +97,28 @@ header{
 
 .search-button {
     background-color: #C84500;
+}
+
+/* ============================== POPULAR ========================= */
+.popular {
+    height: 500px;
+}
+
+.popular-text-item {
+    font-family: Alata;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 69px;
+}
+
+.popular-text {
+    font-family: Alata;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+/* ============================== GROUP ========================= */
+.group {
+    height: 600px;
 }
