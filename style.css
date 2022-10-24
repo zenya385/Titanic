@@ -1,17 +1,25 @@
 .container-content {
-    /* margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     padding-left: 125px;
     padding-right: 125px;
-    width: 100%; */
+    width: 100%;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
 
 .border {
     background-color: rgba(128, 128, 128, 0.39);
     border: 1px solid red;
     height: 80px;
 
+}
+
+.title_header {
+    background-color: #C84500;
 }
 
 .hero {
