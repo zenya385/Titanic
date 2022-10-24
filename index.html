@@ -9,42 +9,86 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
   <title>Titanic</title>
+
 </head>
 
 <body>
   <header class="container">
     <div class="row">
       <div class="logo_header col-3 border"></div>
-      <div class="nav_header col-9 border"></div>
+      <!-- <div class=""> -->
+      <ul class="nav_header col-8 border nav justify-content-center p-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Find a cruise</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Deals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ships</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ">MANAGE MY CRUISE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ">Destinations</a>
+        </li>
+      </ul>
+      <p>Find a cruise</p>
+      <p>Deals</p>
+      <p>Ships</p>
+      <p>Destinations</p>
+      <p>MANAGEMYCRUISE</p>
+      <p>Destinations</p> -->
+    </div>
+    <div class="search_header col-1 border">
+      <p>SIGN IN</p>
+      <svg>
+        <use></use>
+      </svg>
+    </div>
     </div>
     <div class="row">
       <div class="title_header col-3 border"></div>
       <div class="col-6"></div>
       <div class="contact_header col-3 border"></div>
     </div>
-
   </header>
   <main>
     <section class="hero container">
       <div class="row">
         <div class="border col-6"></div>
         <div class="border  text col-6">
-          <button type="button" class="btn btn-primary "></button>
+          <button type="button" class="btn btn-danger">BOOK NOW</button>
         </div>
       </div>
     </section>
 
     <section class="search container">
       <div class="row">
-        <div class="col-3 border"></div>
-        <div class="col-3 border"></div>
-        <div class="col-3 border"></div>
-        <div class="col-3 border"></div>
+        <div class="col-3 border">
+          <p>DEPARTING FROM</p>
+          <p>Choose Departure Port</p>
+        </div>
+        <div class="col-3 border">
+          <p>CRUISING TO</p>
+          <p>Choose Destination</p>
+        </div>
+        <div class="col-3 border">
+          <p>LEAVING</p>
+          <p>Choose Your Date</p>
+        </div>
+        <div class="col-3 border">
+          <button tupe="button" class="btn btn-danger">SEARCH CRUISES</button>
+        </div>
       </div>
     </section>
     <h2>POPULAR CRUISES</h2>
     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
-    <section class="popular">
+    <section class="popular container">
       <div class="row">
         <div class="col-3 border"></div>
         <div class="col-3 border"></div>
@@ -52,18 +96,18 @@
         <div class="col-3 border"></div>
       </div>
     </section>
-    <section class="group">
+    <section class="group container">
       <div class="row">
         <div class="col-5 border"></div>
         <div class="col-7 border"></div>
       </div>
     </section>
 
-    <section class="destination"></section>
+    <section class="destination container"></section>
 
-    <section class="award"></section>
+    <section class="award container"></section>
   </main>
-  <footer>
+  <footer class="footer container">
     <nav class="nav_footer"></nav>
     <section class="social"></section>
   </footer>
