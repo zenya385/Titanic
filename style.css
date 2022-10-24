@@ -23,6 +23,7 @@ body {
     height: 80px;
 }
 
+/* ============================== HEADER ========================= */
 header {
     font-family: 'Alata';
     font-weight: 400;
@@ -121,4 +122,76 @@ header {
 /* ============================== GROUP ========================= */
 .group {
     height: 600px;
+}
+
+.group-bg-primary {
+    height: 585px;
+    background: #131249;
+}
+
+.group-bg-secondary {
+    height: 20px;
+    background: #C84500;
+}
+
+/* ============================== DESTINATION ========================= */
+.italy {
+    height: 300px;
+    background-image: url(img/itali.jpg);
+    background-repeat: no-repeat;
+}
+
+.brazil {
+    height: 300px;
+    background-image: url(img/brasil.jpg);
+    background-repeat: no-repeat;
+}
+
+.britannic {
+    height: 300px;
+    background-image: url(img/britannic.jpg);
+    background-repeat: no-repeat;
+}
+
+.titaninic {
+    height: 300px;
+    background-image: url(img/titanic.jpg);
+    background-repeat: no-repeat;
+}
+
+.singapore {
+    height: 300px;
+    background-image: url(img/singapore.jpg);
+    background-repeat: no-repeat;
+}
+
+.usa {
+    height: 300px;
+    background-image: url(img/usa.jpg);
+    background-repeat: no-repeat;
+}
+
+.rms-titanic {
+    height: 668px;
+    background-image: url(img/Image2_1.jpg);
+    background-repeat: no-repeat;
+}
+
+.rms-britanic {
+    height: 668px;
+    background-image: url(img/Image2_2.jpg);
+    background-repeat: no-repeat;
+}
+
+.golden-rose {
+    height: 668px;
+    background-image: url(img/Image2_2.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+/* ============================== AWARD ========================= */
+.award {
+    height: 420px;
 }
