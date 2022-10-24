@@ -40,11 +40,6 @@ header{
     background-color: #C84500;
 }
 
-.hero {
-    height: 760px;
-    background-image: url(img/BG.jpg);
-}
-
 .search {
     height: 100px;
 }
@@ -55,4 +50,45 @@ header{
 
 .group {
     height: 600px;
+}
+
+.hero {
+    height: 880px;
+    background-image: url(img/BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero p {
+    font-family: 'Arizonia';
+    font-weight: 400;
+    font-size: 52px;
+    color: #131249;
+}
+
+.search {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 19px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+
+.search_text_items {
+    font-family: 'Alata';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #444444;
+}
+
+.search_text {
+    font-family: 'Alata';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #131249;
+}
+
+.search-button {
+    background-color: #C84500;
 }

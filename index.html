@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Alfa+Slab+One&family=Arizonia&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <title>Titanic</title>
 
@@ -52,36 +55,36 @@
     </div>
   </header>
   <main>
-    <section class="hero container">
-      <div class="row">
-        <div class="border col-12">
-          <p>luxury transatlantic journey</p>
+    <section class="hero container-fluid d-flex align-items-center justify-content-end p-5">
+        <div class="row">
+          <div class="col">
+            <p class="fs-1">luxury transatlantic journey</p>
+          </div>
+          <div class="text col">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut luctus dolor, in pretium
+            nunc. Sed eleifend justo eu
+            purus interdum, a venenatis tortor fermentum.
+          </div>
+          <button type="button" class="btn btn-danger">BOOK NOW</button>
         </div>
-        <div class="border  text col-12">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut luctus dolor, in pretium
-          nunc. Sed eleifend justo eu
-          purus interdum, a venenatis tortor fermentum.
-        </div>
-        <button type="button" class="btn btn-danger">BOOK NOW</button>
-      </div>
-    </section>
+      </section>
 
-    <section class="search container">
+    <section class="search container mt-5 pt-3">
       <div class="row">
-        <div class="col-3 border">
-          <p>DEPARTING FROM</p>
-          <p>Choose Departure Port</p>
+        <div class="col-3">
+          <p class="search_text_items">DEPARTING FROM</p>
+          <p class="search_text">Choose Departure Port</p>
         </div>
-        <div class="col-3 border">
-          <p>CRUISING TO</p>
-          <p>Choose Destination</p>
+        <div class="col-3">
+          <p class="search_text_items">CRUISING TO</p>
+          <p class="search_text">Choose Destination</p>
         </div>
-        <div class="col-3 border">
-          <p>LEAVING</p>
-          <p>Choose Your Date</p>
+        <div class="col-3">
+          <p class="search_text_items">LEAVING</p>
+          <p class="search_text">Choose Your Date</p>
         </div>
-        <div class="col-3 border">
-          <button tupe="button" class="btn btn-danger">SEARCH CRUISES</button>
+        <div class="col-3 d-flex justify-content-center align-items-center">
+          <button tupe="button" class="btn btn-lg btn-danger search-button px-5 mb-3">SEARCH CRUISES</button>
         </div>
       </div>
     </section>
