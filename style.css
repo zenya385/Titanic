@@ -1,3 +1,8 @@
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .container-content {
     margin-left: auto;
     margin-right: auto;
@@ -58,6 +63,12 @@ header {
 .title_header {}
 
 /* ============================== HERO ========================= */
+
+.book-button {
+    background-color: #C84500;
+    border-radius: 10px;
+}
+
 .hero {
     height: 880px;
     background-image: url(img/BG.jpg);
