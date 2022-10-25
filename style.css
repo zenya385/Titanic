@@ -102,22 +102,93 @@ header {
 
 /* ============================== POPULAR ========================= */
 .popular {
+    font-family: Alata;
+    font-weight: 600;
     height: 500px;
 }
 
 .popular-text-item {
-    font-family: Alata;
+    /* font-family: Alata; */
     font-size: 50px;
-    font-weight: 400;
+    /* font-weight: 400; */
     line-height: 69px;
 }
 
 .popular-text {
-    font-family: Alata;
+    /* font-family: Alata; */
     font-size: 17px;
-    font-weight: 400;
+    /* font-weight: 400; */
     line-height: 23px;
 }
+
+.card-body h5:nth-child(1) {
+    /* font-family: Alata; */
+    font-size: 20px;
+    /* font-weight: 400; */
+    line-height: 28px;
+    color: #131249;
+
+}
+
+.card-body p:nth-child(2) {
+    /* font-family: Alata; */
+    font-size: 12px;
+    /* font-weight: 400; */
+    line-height: 17px;
+    color: #444444;
+}
+
+.card-body p:nth-child(3) {
+    /* font-family: Alata; */
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+
+    color: #131249;
+    ;
+}
+
+.card-body p:nth-child(4) {
+    /* font-family: Alata; */
+    font-size: 10px;
+    /* font-weight: 400; */
+    line-height: 14px;
+    color: #444444;
+}
+
+.card-body p:nth-child(5) {
+    /* font-family: Alata; */
+    font-size: 13px;
+    /* font-weight: 400; */
+    line-height: 18px;
+    color: #131249;
+}
+
+.card-body p:nth-child(6) {
+    /* font-family: Alata; */
+    font-size: 10px;
+    /* font-weight: 400; */
+    line-height: 14px;
+    color: #444444;
+}
+
+.card-body p:nth-child(7) {
+    /* font-family: Alata; */
+    font-size: 13px;
+    /* font-weight: 400; */
+    line-height: 18px;
+    color: #131249;
+}
+
+.card-body p:nth-child(8) {
+    /* font-family: Alata; */
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #C84500;
+}
+
+
 
 /* ============================== GROUP ========================= */
 .group {
