@@ -50,7 +50,7 @@ header {
 }
 
 .logo_header {
-    background-image: url(./img/logo\ 1.png);
+    background-image: url(./img/logo-1.png);
     background-repeat: no-repeat;
     background-position: 0;
 }
@@ -60,17 +60,28 @@ header {
 /* ============================== HERO ========================= */
 .hero {
     height: 880px;
-    background-image: url(img/BG.jpg);
+    background-image: url(./img/BG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.hero p {
+.hero h1 {
     font-family: 'Arizonia';
     font-weight: 400;
     font-size: 52px;
+    line-height: 65px;
     color: #131249;
 }
+
+.hero p {
+    font-family: 'Alata';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: 131249;
+}
+
+.btn {}
 
 /* ============================== SEARCH ========================= */
 .search {
